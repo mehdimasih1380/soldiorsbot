@@ -220,7 +220,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {75000456,122922722,0,tonumber(our_id)},--Sudo users
+    sudo_users = {122922722,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -230,7 +230,6 @@ An advance Administration bot based on yagop/telegram-bot
 
 Admins
 @mahdimasih
-@peymankhanas
 
 Special thanks to
 awkward_potato
