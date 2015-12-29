@@ -220,16 +220,17 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {122922722,0,tonumber(our_id)},--Sudo users
+    sudo_users = {122922722,75000456,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
+    about_text = [[soldiorsbot v1
 An advance Administration bot based on yagop/telegram-bot 
 
 
 Admins
 @mahdimasih
+@PeymanKhanas
 
 Special thanks to
 awkward_potato
@@ -238,7 +239,7 @@ topkecleon
 Vamptacus
 
 Our channels
-@teleseedch [English]
+@ [English]
 ]],
     help_text = [[
 Commands list :
@@ -289,7 +290,7 @@ Locks [member|name|bots]
 
 !unlock [member|name|photo|bots]
 Unlocks [member|name|photo|bots]
-
+ت
 !set rules <text>
 Set <text> as rules
 
