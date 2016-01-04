@@ -220,26 +220,18 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {122922722,75000456,tonumber(our_id)},--Sudo users
+    sudo_users = {122922722,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[soldiorsbot v1
-An advance Administration bot based on yagop/telegram-bot 
-
-
-Admins
+فروش ویژه گروه های مجهز به ضد اسپم
+و فروش سرور ضد اسپم برای ساخت گروه ضد اسپم
+اطلاعات تماس : 
 @mahdimasih
-@PeymanKhanas
+@unix_web
+آدرس وب سایت : www.antibot.ir
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@ [English]
 ]],
     help_text = [[
 Commands list :
